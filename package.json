@@ -30,6 +30,9 @@
   },
   "devDependencies": {
     "ava": "^0.14.0",
+    "browserify": "^13.0.1",
+    "html-minifier": "^2.1.2",
+    "node-sass": "^3.7.0",
     "nyc": "^6.4.4"
   },
   "peerDependencies": {
