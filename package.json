@@ -1,6 +1,6 @@
 {
   "name": "express-assets-middlewares",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ExpressJS assets middlewares",
   "main": "src/express-assets-middlewares.js",
   "scripts": {
