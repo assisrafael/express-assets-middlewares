@@ -1,4 +1,4 @@
-# express-assets-middlewares
+# express-assets-middlewares [![Build Status](https://travis-ci.org/assisrafael/express-assets-middlewares.svg?branch=master)](https://travis-ci.org/assisrafael/express-assets-middlewares)
 
 [![NPM](https://nodei.co/npm/express-assets-middlewares.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/express-assets-middlewares/)
 
