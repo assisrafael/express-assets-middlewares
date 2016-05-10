@@ -1,6 +1,8 @@
 # express-assets-middlewares
 
-ExpressJS assets middlewares
+[![NPM](https://nodei.co/npm/express-assets-middlewares.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/express-assets-middlewares/)
+
+ExpressJS middlewares for JavaScript, HTML and CSS files with embedded preprocessing (browserify, sass, etc).
 
 
 ## Dependencies
