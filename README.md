@@ -1,4 +1,4 @@
-# express-assets-middlewares [![Build Status](https://travis-ci.org/assisrafael/express-assets-middlewares.svg?branch=master)](https://travis-ci.org/assisrafael/express-assets-middlewares)
+# express-assets-middlewares [![Build Status](https://travis-ci.org/assisrafael/express-assets-middlewares.svg?branch=master)](https://travis-ci.org/assisrafael/express-assets-middlewares) [![Coverage Status](https://coveralls.io/repos/github/assisrafael/express-assets-middlewares/badge.svg?branch=master)](https://coveralls.io/github/assisrafael/express-assets-middlewares?branch=master)
 
 [![NPM](https://nodei.co/npm/express-assets-middlewares.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/express-assets-middlewares/)
 
