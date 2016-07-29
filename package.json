@@ -4,8 +4,9 @@
   "description": "ExpressJS assets middlewares",
   "main": "src/express-assets-middlewares.js",
   "scripts": {
-    "test": "nyc ava src/**/*.test.js",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "lint": "eslint --fix src/",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc ava src/**/*.test.js"
   },
   "repository": {
     "type": "git",
