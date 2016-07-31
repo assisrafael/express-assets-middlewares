@@ -1,12 +1,13 @@
 {
   "name": "express-assets-middlewares",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ExpressJS assets middlewares",
   "main": "src/express-assets-middlewares.js",
   "scripts": {
     "lint": "eslint --fix src/",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "test": "nyc ava src/**/*.test.js"
+    "test": "nyc ava src/**/*.test.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -36,7 +37,8 @@
     "coveralls": "^2.11.9",
     "html-minifier": "^2.1.2",
     "node-sass": "^3.7.0",
-    "nyc": "^7.1.0"
+    "nyc": "^7.1.0",
+    "standard-version": "^2.4.0"
   },
   "peerDependencies": {
     "express": ">=4.13.4",
