@@ -88,7 +88,6 @@ class BrowserifyMiddleware extends AssetMiddleware {
 
 		options.fromString = true;
 
-		// return new Promise(function(resolve, reject) {
 		try {
 			return Promise.resolve(uglify.minify(src, options).code);
 		} catch (ex) {

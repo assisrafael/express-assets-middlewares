@@ -3,7 +3,6 @@
 const fs = require('fs');
 
 const _ = require('lodash');
-const minifier = require('html-minifier');
 
 const AssetMiddleware = require('asset');
 
@@ -46,6 +45,7 @@ class HtmlMiddleware extends AssetMiddleware {
 	}
 
 	minify(src) {
+		const minifier = require('html-minifier');
 		return minifier.minify(src.toString(), this.options.minifyOptions);
 	}
 }

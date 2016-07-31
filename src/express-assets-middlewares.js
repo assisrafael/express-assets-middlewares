@@ -4,6 +4,9 @@ module.exports = {
 	js: {
 		get browserify() {
 			return require('./js/browserify');
+		},
+		get rollup() {
+			return require('./js/rollup');
 		}
 	},
 	css: {
